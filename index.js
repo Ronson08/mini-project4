@@ -1,10 +1,7 @@
 var num=document.querySelectorAll(".drum").length
-//console.log(num)
 
 for(var i=0;i<num;i++){
     document.querySelectorAll(".drum")[i].addEventListener("click",function(){
-        // alert("Clicked")
-        // console.log(this.innerHTML)
         var btn=this.innerHTML
         switch(btn){
             case 'w':
@@ -41,8 +38,6 @@ for(var i=0;i<num;i++){
     }) 
 }
 document.addEventListener("keypress",function(e){
-    // alert("Clicked")
-    // console.log(this.innerHTML)
     var key=e.key.toLowerCase()
     switch(key){
         case 'w':

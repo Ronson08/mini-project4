@@ -102,4 +102,6 @@ background-image: url(images/tom1.png);
 .txt:hover{
   font-size: 4vw;
 }
-
+.drum:hover{
+  pointer-events: fill;
+}
